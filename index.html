@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <script src="/index-html/libs/gsap/gsap.min.js" defer></script>
+    <script src="/index-html/libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="/index-html/libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="main-header">
+          <div class="layers">
+            <div class="layer__header">
+              <div class="layers__caption">Welcome to Parallax</div>
+              <div class="layers__tittle">Fairy Forest</div>
+            </div>
+            <div
+              class="layer layers__base"
+              style="
+                background-image: url(index-html/img/layer-base.png);
+              "></div>
+            <div
+              class="layer layers__middle"
+              style="
+                background-image: url(index-html/img/layer-middle.png);
+              "></div>
+            <div
+              class="layer layers__front"
+              style="
+                background-image: url(index-html/img/layer-front.png);
+              "></div>
+          </div>
+        </header>
+
+        <article
+          class="main-article"
+          style="background-image: url(index-html/img/dungeon.jpg)">
+          <div class="main-article__content">
+            <h2 class="main-article__header">To be continued</h2>
+            <p class="main-article__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
+              iusto qui voluptatum distinctio ipsam amet dolores animi nemo
+              placeat impedit cumque, laudantium inventore incidunt alias,
+              quidem ipsa ea harum aliquam nulla tenetur corporis quaerat earum
+              molestiae.
+            </p>
+          </div>
+          <div class="copy">&#169; WebDesing Master</div>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>
